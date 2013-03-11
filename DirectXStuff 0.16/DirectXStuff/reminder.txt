@@ -1,0 +1,5 @@
+based on tutorial 16
+
+This deals with frustum culling.
+
+Basically culling what's not on screen
