@@ -43,14 +43,16 @@ bool Water::Initialize(ID3D11Device* device, WCHAR* textureFilename, float water
 	}
 
 	// Set the tiling for the water normal maps.
-	m_normalMapTiling.x = 0.01f;  // Tile ten times over the quad.
-	m_normalMapTiling.y = 0.02f;  // Tile five times over the quad.
+	m_normalMapTiling.x = 0.01f;  // Tile ten times over the quad. FUCK WITH THIS get rid of 0
+	m_normalMapTiling.y = 0.02f;  // Tile five times over the quad. FUCK WITH THIS get rid of 0
 
 	// Initialize the water translation to zero.
 	m_waterTranslation = 0.0f;
 
 	// Set the scaling value for the water normal map.
-	m_reflectRefractScale = 0.03f;
+	m_reflectRefractScale = 0.03f; //FUCK WITH THIS get rid of 0
+
+	//will do some crazy shit
 
 	// Set the tint of the refraction.
 	m_refractionTint = D3DXVECTOR4(0.0f, 0.8f, 1.0f, 1.0f);
