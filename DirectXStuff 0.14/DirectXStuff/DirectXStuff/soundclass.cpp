@@ -34,7 +34,7 @@ bool SoundClass::Initialize(HWND hwnd)
 	}
  
 	// Load a wave audio file onto a secondary buffer.
-	result = LoadWaveFile("../sound01.wav", &m_secondaryBuffer1);
+	result = LoadWaveFile("../battlemusic.wav", &m_secondaryBuffer1);
 	if(!result)
 	{
 		return false;
@@ -171,7 +171,7 @@ bool SoundClass::LoadWaveFile(char* filename, IDirectSoundBuffer8** secondaryBuf
 	{
 		return false;
 	}
- 
+ /*
 	// Check that the chunk ID is the RIFF format.
 	if((waveFileHeader.chunkId[0] != 'R') || (waveFileHeader.chunkId[1] != 'I') || 
 	   (waveFileHeader.chunkId[2] != 'F') || (waveFileHeader.chunkId[3] != 'F'))
@@ -223,6 +223,7 @@ bool SoundClass::LoadWaveFile(char* filename, IDirectSoundBuffer8** secondaryBuf
 	{
 		return false;
 	}
+	*/
 
 	// Set the wave format of secondary buffer that this wave file will be loaded onto.
 	waveFormat.wFormatTag = WAVE_FORMAT_PCM;
