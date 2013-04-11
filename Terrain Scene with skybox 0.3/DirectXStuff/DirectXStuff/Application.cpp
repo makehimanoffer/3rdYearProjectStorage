@@ -138,7 +138,7 @@ bool Application::Initialize(HINSTANCE hinstance, HWND hwnd, int screenWidth, in
 	}
 
 	// Initialize the terrain object.
-	result = m_Terrain->Initialize(m_Direct3D->GetDevice(), "../test1.bmp", 10.0f);
+	result = m_Terrain->Initialize(m_Direct3D->GetDevice(), "../test.bmp", 10.0f);
 	if(!result)
 	{
 		MessageBox(hwnd, L"Could not initialize the terrain object.", L"Error", MB_OK);
