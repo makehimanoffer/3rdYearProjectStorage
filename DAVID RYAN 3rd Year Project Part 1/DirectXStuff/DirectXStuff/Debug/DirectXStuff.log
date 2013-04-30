@@ -1,0 +1,61 @@
+﻿Build started 20/03/2013 22:32:02.
+     1>Project "C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\DirectXStuff\DirectXStuff.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DirectXStuff.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp DXMain.cpp FontHandler.cpp Model.cpp Skyplane.cpp SystemBackend.cpp Terrain.cpp TextHandler.cpp Texture.cpp Water.cpp
+         Water.cpp
+         Texture.cpp
+         TextHandler.cpp
+         Terrain.cpp
+         SystemBackend.cpp
+         Skyplane.cpp
+         Model.cpp
+         FontHandler.cpp
+         DXMain.cpp
+         Application.cpp
+     1>c:\users\david\documents\github\3rdyearprojectstorage\david ryan 3rd year project part 1\directxstuff\directxstuff\application.cpp(667): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\david\documents\github\3rdyearprojectstorage\david ryan 3rd year project part 1\directxstuff\directxstuff\application.cpp(667): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\Debug\DirectXStuff.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DirectXStuff.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\Debug\DirectXStuff.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\Debug\DirectXStuff.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Camera.obj
+         Debug\ColorShader.obj
+         Debug\CPUQuery.obj
+         Debug\Direct3DHandler.obj
+         Debug\DXMain.obj
+         Debug\FontHandler.obj
+         Debug\FontShader.obj
+         Debug\FramesPS.obj
+         Debug\Input.obj
+         Debug\Light.obj
+         Debug\LightShader.obj
+         Debug\Model.obj
+         Debug\Position.obj
+         Debug\ReflectionShader.obj
+         Debug\RenderTexture.obj
+         Debug\SkyDome.obj
+         Debug\SkyDomeShader.obj
+         Debug\Skyplane.obj
+         Debug\SkyplaneShader.obj
+         Debug\SystemBackend.obj
+         Debug\Terrain.obj
+         Debug\TerrainShader.obj
+         Debug\TextHandler.obj
+         Debug\Texture.obj
+         Debug\TextureShader.obj
+         Debug\Timer.obj
+         Debug\Water.obj
+         Debug\WaterShader.obj
+     1>Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         DirectXStuff.vcxproj -> C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\Debug\DirectXStuff.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\Debug\DirectXStuff.exe;#1" /manifest Debug\DirectXStuff.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DirectXStuff.unsuccessfulbuild".
+         Touching "Debug\DirectXStuff.lastbuildstate".
+     1>Done Building Project "C:\Users\David\Documents\GitHub\3rdYearProjectStorage\DAVID RYAN 3rd Year Project Part 1\DirectXStuff\DirectXStuff\DirectXStuff.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.05
