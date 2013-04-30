@@ -1,4 +1,0 @@
-based on tutorial 11
-
-This runs through some 2d rendering. 
-Therefore leads to 2d games

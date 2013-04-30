@@ -1,6 +1,0 @@
-based on tutorial 17
-
-This deals with MULTITEXTURING.
-
-Basically culling what's not on screen.
-It shows a load of sphere models textured with multiple textures at the same time
